@@ -8,7 +8,7 @@ class MyApp extends StatefulWidget {
   MyApp._internal(); //private named constructor
   int appState=0;
 
-  static final MyApp instance = MyApp._internal(); // single instance --> Singleton
+  static final MyApp instance = MyApp._internal(); // single instance --> Singleton: bir sınıf tipinden sadece tek bir nesnenin yaratılması
   /**
    * Dart'ın factory constuctorları sayesinde, bir singleton oluşturmak kolaydır. Yani bu sınıf bu örnek tekil olur
    * static ve final olması, yani artık değişmeyecek

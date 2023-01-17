@@ -5,7 +5,6 @@ import 'app/app.dart';
 class Test extends StatelessWidget {
   const Test({Key? key}) : super(key: key);
 
-
   //burada singleton örneğini kullanarak app state'i değişkeni güncellendi
   void updateAppState(){
     MyApp.instance.appState = 10;
