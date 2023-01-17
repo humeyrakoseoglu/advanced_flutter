@@ -1,6 +1,6 @@
-# advanced_flutter
+# Clean Architecture With MVVM
 
-A new Flutter project.
+A new advanced Flutter project.
 
 ## Getting Started
 
